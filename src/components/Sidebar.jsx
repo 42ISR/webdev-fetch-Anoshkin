@@ -12,11 +12,11 @@ const Sidebar = () => {
             </div>
             <nav className="navigation">
                 <div className="nav-section-title">Библиотека</div>
-                <NavLink className={({ isActive }) => `nav-item${isActive ? " active" : ""}`} to="index.html">
+                <NavLink className={({ isActive }) => `nav-item${isActive ? " active" : ""}`} to="/">
                     <span>⌂</span>
                     Обзор
                 </NavLink>
-                <NavLink className={({ isActive }) => `nav-item${isActive ? " active" : ""}`} to="favorites.html">
+                <NavLink className={({ isActive }) => `nav-item${isActive ? " active" : ""}`} to="Favorites">
                     <span>♡</span>
                     Избранное
                 </NavLink>
